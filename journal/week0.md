@@ -7,13 +7,13 @@ The objective of this task was to create a Cost budget which monitors your costs
 3. I created a cost budget via AWS CLI on Gitpod
 
 Here's a screenshot of the cost budget created
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/AWS_Budgets.png) "AWS Cost Budget")
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/AWS_Budgets.png "AWS Cost Budget")
 
 ### Recreate Conceptual Diagram in Lucid Charts
 
 I was able to recreate the following conceptual/napkin diagram in LucidChard 
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Cruddur%20-%20Conceptual%20Diagram.png) "Cruddur - Conceptual Diagram")
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Cruddur%20-%20Conceptual%20Diagram.png "Cruddur - Conceptual Diagram")
 
 [LucidChart Conceptual Diagram share link](https://lucid.app/lucidchart/090c3726-1583-4ea5-a0bc-5f96ec434c01/edit?invitationId=inv_78ebfd97-5ca6-4daa-9396-d56fe2dd4774)
 
@@ -22,7 +22,7 @@ I was able to recreate the following conceptual/napkin diagram in LucidChard
 
 I was able to recreate the following logical diagram in LucidChard 
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Cruddur%20-%20Logical%20Diagram.png) "Cruddur - Logical Diagram")
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Cruddur%20-%20Logical%20Diagram.png "Cruddur - Logical Diagram"
 
 [LucidChart Logical Diagram share link](https://lucid.app/lucidchart/fa24260f-e35d-41b2-9d33-782931da5036/edit?invitationId=inv_b3c58534-3af4-4281-9065-8e3bca4ab0af)
 
@@ -32,13 +32,13 @@ I was able to recreate the following logical diagram in LucidChard
 1. The first recommendation I applied was to enable MFA on root account
 2. The second recommendation was to create an IAM user, add it to a group and and apply administrator permissions to the group. From now, I will use the IAM user as the management account for all the remaining tasks
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/IAM_MFA.png) "Enable MFA on root user and ")
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/IAM_MFA.png "Enable MFA on root user and ")
 
 3. Create an organizational structure and roles (active accounts, standby accounts)  
 4. Explore the differences between roles, groups and permissions
 5. Created a Service control policy for the organization
 
- ![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/SCP%20_Prevent_leave_organization%20.png) "SCP - Prevent Leave Organization")
+ ![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/SCP%20_Prevent_leave_organization%20.png "SCP - Prevent Leave Organization")
  
  The code to enable this is as follows 
  ```
@@ -65,12 +65,12 @@ It makes it easier to launch the github code into a gitpod workspace
 
 Installation of the AWS CLI was done as follows 
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Install_AWS_CLI.png) "Installation of AWS CLI in Gitpod terminal")
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Install_AWS_CLI.png "Installation of AWS CLI in Gitpod terminal"
 We had to setup environment variables using the access credentials we generated earlier and verified if we had access to AWS CLI by running the following command 
 
 `aws sts get-caller-identity
 
-(https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png)
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png "verify identity"
 
 ### Automate installation of AWS CLI
 
@@ -89,14 +89,14 @@ tasks:
       cd $THEIA_WORKSPACE_ROOT
 ```
 
-(https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/automate_AWS_CLI_Install.png)
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/automate_AWS_CLI_Install.png "Automate installation of AWS CLI "
 
 
 ### Creating a cost budget via AWS CLI
 
 I also created a cost budget via CLI using three files that were provided by Andrew Brown 
 
-(https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png)
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png "Create Cost Budget via AWS CLI"
 
 
 
