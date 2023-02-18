@@ -65,12 +65,12 @@ It makes it easier to launch the github code into a gitpod workspace
 
 Installation of the AWS CLI was done as follows 
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Install_AWS_CLI.png "Installation of AWS CLI in Gitpod terminal"
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Install_AWS_CLI.png "Installation of AWS CLI in Gitpod terminal")
 We had to setup environment variables using the access credentials we generated earlier and verified if we had access to AWS CLI by running the following command 
 
 `aws sts get-caller-identity
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png "verify identity"
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png "verify identity")
 
 ### Automate installation of AWS CLI
 
@@ -89,14 +89,14 @@ tasks:
       cd $THEIA_WORKSPACE_ROOT
 ```
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/automate_AWS_CLI_Install.png "Automate installation of AWS CLI "
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/automate_AWS_CLI_Install.png "Automate installation of AWS CLI")
 
 
 ### Creating a cost budget via AWS CLI
 
 I also created a cost budget via CLI using three files that were provided by Andrew Brown 
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png "Create Cost Budget via AWS CLI"
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/aws-sts-get-caller-identity.png "Create Cost Budget via AWS CLI")
 
 
 
