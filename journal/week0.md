@@ -22,7 +22,7 @@ I was able to recreate the following conceptual/napkin diagram in LucidChard
 
 I was able to recreate the following logical diagram in LucidChard 
 
-![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Cruddur%20-%20Logical%20Diagram.png "Cruddur - Logical Diagram"
+![alt text](https://github.com/auguste-aws/aws-bootcamp-cruddur-2023/blob/week-0/_docs/assets/Cruddur%20-%20Logical%20Diagram.png "Cruddur - Logical Diagram")
 
 [LucidChart Logical Diagram share link](https://lucid.app/lucidchart/fa24260f-e35d-41b2-9d33-782931da5036/edit?invitationId=inv_b3c58534-3af4-4281-9065-8e3bca4ab0af)
 
